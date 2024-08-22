@@ -1,0 +1,329 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    line-height: 1;
+    color: #333;
+    font-family: 'Pretendard-Regular';
+}
+
+.wrap .back img {
+    margin: 200px 170px;
+    position: relative;
+}
+
+.title h1 {
+    font-size: 96px;
+    position: absolute;
+    top: 130px;
+    left: 700px;
+}
+
+.title .profile {
+    font-size: 40px;
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    line-height: 1.5;
+}
+
+.title .profile p:nth-child(2) {
+    color: #fff;
+    font-size: 96px
+}
+
+.title .skill {
+    position: absolute;
+    top: 400px;
+    left: 850px;
+}
+
+.title .skill p {
+    font-size: 40px;
+}
+
+.title .skill .photo img {
+    padding: 20px;
+}
+
+.title .skill .micro img {
+    padding: 18px;
+}
+
+.title .skill .code {
+    color: royalblue;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    gap: 150px;
+}
+
+.title .me {
+    position: absolute;
+    top: 250px;
+    right: 170px;
+}
+
+.title .resume {
+    position: absolute;
+    top: 750px;
+    left: 350px;
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.title .resume a {
+    font-size: 20px;
+    border: 1px solid #333;
+    padding: 10px 15px;
+    border-radius: 40px;
+}
+
+.title .resume a:hover {
+    background-color: lemonchiffon;
+}
+
+.title .contact {
+    position: absolute;
+    top: 750px;
+    left: 850px;
+    line-height: 1.5;
+}
+
+.title .contact .cont {
+    font-size: 40px;
+}
+
+.title .contact p {
+    font-size: 20px;
+}
+
+.design {
+    margin-top: 200px;
+
+}
+
+.design .not {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 200px;
+}
+
+.design .business {
+    width: 1920px;
+}
+
+.design .business .box {
+    margin: 60px;
+    padding: 15px;
+    margin-bottom: 200px;
+}
+
+.design .business .box .box01 img {
+    width: 438px;
+    height: 766px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.design .business .box .box02 img {
+    width: 438px;
+    height: 766px;
+    object-fit: cover;
+}
+
+.cardnews .card_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
+
+.cardnews .card01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardnews .card02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.cardnews .card01 img {
+    width: 438px;
+    height: 438px;
+    object-fit: cover;
+}
+
+.cardnews .card02 img {
+    width: 438px;
+    height: 578px;
+    object-fit: cover;
+}
+
+.app .qr_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app .qr {
+    width: 1300px;
+    margin-left: 300px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.app .qr img {
+    width: 208px;
+    height: 208px;
+    object-fit: cover;
+}
+
+.app .app_text .tving {
+   /*  width: 1300px; */
+    margin-left: 250px;
+    display: flex;
+   font-size: 48px;
+   gap: 20px;
+   
+}
+.app .app_text .tving img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.app .app_text .applemusic {
+    /*  width: 1300px; */
+     margin-left: 1250px;
+     display: flex;
+    font-size: 48px;
+    gap: 20px;
+    position: absolute;
+    top: 5710px;
+ }
+ .app .app_text .applemusic img {
+     width: 50px;
+     height: 50px;
+     object-fit: cover;
+ }
+ .app_pic {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 70px;
+    gap: 30px;
+ }
+ .app_pic img {
+    width: 870px;
+    height: 575px;
+    object-fit: cover;
+ }
+ .web {
+    margin-left: 200px;
+ }
+ .web .web_img {
+    margin-top: 300px;
+    margin-left: 640px;
+    margin-bottom: 100px;
+ }
+
+ .web .click {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 70px;
+ }
+ .banillaco {
+    display: flex;
+    gap: 200px;
+ }
+ .banillaco .ba_text {
+    margin-top: 130px;
+ }
+ .banillaco .ba_text strong {
+    font-size: 36px;
+    line-height: 2.2;
+ }
+ .banillaco .ba_text p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+ }
+
+ .haagendazs {
+    display: flex;
+    gap: 200px;
+ }
+ .haagendazs .ha_text {
+    margin-top: 130px;
+ }
+ .haagendazs .ha_text strong {
+    font-size: 36px;
+    line-height: 2.2;
+ }
+ .haagendazs .ha_text p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+ }
+
+ .joegush {
+    display: flex;
+    gap: 200px;
+ }
+ .joegush .jo_text {
+    margin-top: 130px;
+ }
+ .joegush .jo_text strong {
+    font-size: 36px;
+    line-height: 2.2;
+ }
+ .joegush .jo_text p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+ }
+
+ .solethings {
+    display: flex;
+    gap: 200px;
+ }
+ .solethings .so_text {
+    margin-top: 130px;
+ }
+ .solethings .so_text strong {
+    font-size: 36px;
+    line-height: 2.2;
+ }
+ .solethings .so_text p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+ }
