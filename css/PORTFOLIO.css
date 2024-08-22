@@ -327,3 +327,21 @@ body {
     line-height: 1.7;
     margin-bottom: 20px;
  }
+
+ .footer {
+    text-align: center;
+ }
+ .footer h3 {
+    font-size: 80px;
+    text-shadow: 3px 3px#33333360;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    border-bottom:5px solid #333;
+ }
+ .footer span {
+    line-height: 1.5;
+    font-size: 35px;
+ }
+ .footer p {
+    margin-top: 30px;
+ }
