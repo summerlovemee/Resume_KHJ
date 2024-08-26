@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 @font-face {
     font-family: 'Pretendard-Regular';
     src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
@@ -9,6 +10,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Pretendard-Regular';
 }
 
 li {
@@ -18,6 +20,7 @@ li {
 a {
     text-decoration: none;
     color: inherit;
+    font-family: 'Pretendard-Regular';
 }
 
 body {
@@ -27,21 +30,16 @@ body {
 }
 
 .wrap .back img {
-    margin: 200px 170px;
+    margin: 130px 170px;
     position: relative;
 }
 
-.title h1 {
-    font-size: 96px;
-    position: absolute;
-    top: 130px;
-    left: 700px;
-}
+
 
 .title .profile {
     font-size: 40px;
     position: absolute;
-    top: 400px;
+    top: 1150px;
     left: 350px;
     line-height: 1.5;
 }
@@ -53,7 +51,7 @@ body {
 
 .title .skill {
     position: absolute;
-    top: 400px;
+    top: 1150px;
     left: 850px;
 }
 
@@ -70,22 +68,26 @@ body {
 }
 
 .title .skill .code {
-    color: royalblue;
-    font-weight: bold;
-    font-size: 40px;
     display: flex;
-    gap: 150px;
+    gap: 80px;
+    margin-left: 60px;
+}
+
+.title .skill .code img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
 }
 
 .title .me {
     position: absolute;
-    top: 250px;
+    top: 1150px;
     right: 170px;
 }
 
 .title .resume {
     position: absolute;
-    top: 750px;
+    top: 1550px;
     left: 350px;
     font-size: 40px;
     line-height: 1.5;
@@ -104,7 +106,7 @@ body {
 
 .title .contact {
     position: absolute;
-    top: 750px;
+    top: 1553px;
     left: 850px;
     line-height: 1.5;
 }
@@ -119,6 +121,29 @@ body {
 
 .design {
     margin-top: 200px;
+
+}
+
+.design .de_qr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.design .de_qr img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.design .eb_link {
+    display: flex;
+    justify-content: center;
+   color: #f4394b;
+    margin-top: 20px;
+    font-size: 20px;
+   
 
 }
 
@@ -165,6 +190,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
 }
 
 .cardnews .card02 {
@@ -172,6 +199,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 200px;
+    gap: 5px;
 }
 
 .cardnews .card01 img {
@@ -201,20 +229,21 @@ body {
 
 }
 
-.app .qr  img {
+.app .qr img {
     width: 208px;
     height: 208px;
     object-fit: cover;
 }
 
 .app .app_text .tving {
-   /*  width: 1300px; */
+    /*  width: 1300px; */
     margin-left: 250px;
     display: flex;
-   font-size: 48px;
-   gap: 20px;
-   
+    font-size: 48px;
+    gap: 20px;
+
 }
+
 .app .app_text .tving a img {
     width: 50px;
     height: 50px;
@@ -223,125 +252,178 @@ body {
 
 .app .app_text .applemusic {
     /*  width: 1300px; */
-     margin-left: 1250px;
-     display: flex;
+    margin-left: 1250px;
+    display: flex;
     font-size: 48px;
-    gap: 20px;
+    gap: 10px;
     position: absolute;
-    top: 5710px;
- }
- .app .app_text .applemusic a img {
-     width: 50px;
-     height: 50px;
-     object-fit: cover;
- }
- .app_pic {
+    top: 6920px;
+}
+
+.app .app_text .applemusic a img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.app_pic {
     display: flex;
     margin-top: 50px;
     margin-left: 70px;
     gap: 30px;
- }
- .app_pic img {
+}
+
+.app_pic img {
     width: 870px;
     height: 575px;
     object-fit: cover;
- }
- .web {
-    margin-left: 200px;
- }
- .web .web_img {
-    margin-top: 300px;
-    margin-left: 640px;
-    margin-bottom: 100px;
- }
+}
 
- .web .click {
+.web {
+    margin-left: 200px;
+}
+
+.web .web_img {
+    margin-top: 300px;
+    margin-left: 613px;
+    margin-bottom: 100px;
+}
+
+.web .click {
     text-align: center;
     font-size: 50px;
     margin-bottom: 70px;
- }
- .banillaco {
+}
+
+.banillaco {
     display: flex;
     gap: 200px;
- }
- .banillaco .ba_text {
+}
+
+.banillaco .ba_text {
     margin-top: 130px;
- }
- .banillaco .ba_text strong {
+}
+
+.banillaco .ba_text strong {
     font-size: 36px;
     line-height: 2.2;
- }
- .banillaco .ba_text p {
+}
+
+.banillaco .ba_text p {
     font-size: 20px;
     line-height: 1.7;
     margin-bottom: 20px;
- }
+}
 
- .haagendazs {
+.banillaco .ba_text a {
+    display: flex;
+    margin-top: 20px;
+    font-size: 25px;
+    border-bottom: 1px solid #333;
+    width: 185px;
+}
+
+.haagendazs {
     display: flex;
     gap: 200px;
- }
- .haagendazs .ha_text {
+}
+
+.haagendazs .ha_text {
     margin-top: 130px;
- }
- .haagendazs .ha_text strong {
+}
+
+.haagendazs .ha_text strong {
     font-size: 36px;
     line-height: 2.2;
- }
- .haagendazs .ha_text p {
+}
+
+.haagendazs .ha_text p {
     font-size: 20px;
     line-height: 1.7;
     margin-bottom: 20px;
- }
+}
 
- .joegush {
+.haagendazs .ha_text .ha_link {
+    display: flex;
+    margin-top: 20px;
+    font-size: 25px;
+    border-bottom: 1px solid #333;
+    width: 185px;
+}
+
+.joegush {
     display: flex;
     gap: 200px;
- }
- .joegush .jo_text {
+}
+
+.joegush .jo_text {
     margin-top: 130px;
- }
- .joegush .jo_text strong {
+}
+
+.joegush .jo_text strong {
     font-size: 36px;
     line-height: 2.2;
- }
- .joegush .jo_text p {
+}
+
+.joegush .jo_text p {
     font-size: 20px;
     line-height: 1.7;
     margin-bottom: 20px;
- }
+}
 
- .solethings {
+.joegush .jo_text .jo_link {
+    display: flex;
+    margin-top: 20px;
+    font-size: 25px;
+    border-bottom: 1px solid #333;
+    width: 185px;
+}
+
+.solethings {
     display: flex;
     gap: 200px;
- }
- .solethings .so_text {
+}
+
+.solethings .so_text {
     margin-top: 130px;
- }
- .solethings .so_text strong {
+}
+
+.solethings .so_text strong {
     font-size: 36px;
     line-height: 2.2;
- }
- .solethings .so_text p {
+}
+
+.solethings .so_text p {
     font-size: 20px;
     line-height: 1.7;
     margin-bottom: 20px;
- }
+}
 
- .footer {
+.solethings .so_text a {
+    display: flex;
+    margin-top: 20px;
+    font-size: 25px;
+    border-bottom: 1px solid #333;
+    width: 185px;
+}
+
+.footer {
     text-align: center;
- }
- .footer h3 {
+}
+
+.footer h3 {
     font-size: 80px;
     text-shadow: 3px 3px#33333360;
     margin-bottom: 100px;
     margin-top: 200px;
-    border-bottom:5px solid #333;
- }
- .footer span {
+    border-bottom: 5px solid #333;
+}
+
+.footer span {
     line-height: 1.5;
     font-size: 35px;
- }
- .footer p {
+}
+
+.footer p {
     margin-top: 30px;
- }
+}
