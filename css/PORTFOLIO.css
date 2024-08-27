@@ -301,7 +301,7 @@ body {
 }
 
 .banillaco .ba_text {
-    margin-top: 130px;
+    margin-top: 50px;
 }
 
 .banillaco .ba_text strong {
@@ -316,20 +316,34 @@ body {
 }
 
 .banillaco .ba_text a {
-    display: flex;
+    /* display: flex;  */
     margin-top: 20px;
-    font-size: 25px;
-    border-bottom: 1px solid #333;
-    width: 185px;
+    font-size: 30px;
+    border: 1px solid #f4394b;
+    border-radius: 40px;
+    text-align: center;
+    padding: 20px 20px;
+    width: 100px;
+}
+.banillaco .ba_text a:first-child {
+    background-color: #f4394b;
+    color: #fff;
 }
 
+.banillaco .ba_text .ba_web {
+    display: flex;
+    gap: 10px;
+}
+.banillaco .ba_text .ba_web a:hover {
+    background-color:#33333360;
+}
 .haagendazs {
     display: flex;
     gap: 200px;
 }
 
 .haagendazs .ha_text {
-    margin-top: 130px;
+    margin-top: 50px;
 }
 
 .haagendazs .ha_text strong {
@@ -343,21 +357,35 @@ body {
     margin-bottom: 20px;
 }
 
-.haagendazs .ha_text .ha_link {
-    display: flex;
+.haagendazs .ha_text .ha_web a {
+    /* display: flex; */ 
     margin-top: 20px;
-    font-size: 25px;
-    border-bottom: 1px solid #333;
-    width: 185px;
+    font-size: 30px;
+    border: 1px solid #f4394b;
+    border-radius: 40px;
+    padding: 20px 20px;
+    width: 100px;
+    text-align: center;
+    
 }
-
+.haagendazs .ha_text .ha_web a:first-child {
+    background-color: #f4394b;
+    color: #fff;
+}
+.haagendazs .ha_text .ha_web {
+    display: flex;
+    gap: 10px;
+}
+.haagendazs .ha_text .ha_web a:hover {
+    background-color: #33333360;
+}
 .joegush {
     display: flex;
     gap: 200px;
 }
 
 .joegush .jo_text {
-    margin-top: 130px;
+    margin-top: 50px;
 }
 
 .joegush .jo_text strong {
@@ -372,20 +400,27 @@ body {
 }
 
 .joegush .jo_text .jo_link {
-    display: flex;
+    /* display: flex; */
     margin-top: 20px;
-    font-size: 25px;
-    border-bottom: 1px solid #333;
-    width: 185px;
+    font-size: 30px;
+    border: 1px solid #f4394b;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 40px;
+    width: 100px;
+    background-color: #f4394b;
+    color: #fff;
 }
-
+.joegush .jo_text .jo_link:hover {
+    background-color: #33333360;
+}
 .solethings {
     display: flex;
     gap: 200px;
 }
 
 .solethings .so_text {
-    margin-top: 130px;
+    margin-top: 80px;
 }
 
 .solethings .so_text strong {
@@ -400,11 +435,28 @@ body {
 }
 
 .solethings .so_text a {
-    display: flex;
+   /*  display: flex; */
     margin-top: 20px;
-    font-size: 25px;
-    border-bottom: 1px solid #333;
-    width: 185px;
+    font-size: 30px;
+    border: 1px solid #f4394b;
+    border-radius: 40px;
+    padding: 20px 20px;
+    text-align: center;
+    width: 100px;
+  
+}
+.solethings .so_text a:first-child {
+    background-color: #f4394b;
+    color: #fff;
+}
+.solethings .so_text a:hover {
+    background-color: #33333360;
+}
+.solethings .so_text .sol_web {
+    display: flex;
+    margin-top: 5px;
+    gap: 10px;
+    
 }
 
 .footer {
