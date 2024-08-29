@@ -214,6 +214,53 @@ body {
     object-fit: cover;
 }
 
+
+
+
+.poster .poster_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 100px;
+}
+
+.poster .poster02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.poster .poster03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    gap: 30px;
+}
+
+.poster .poster02 img {
+    width: 420px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.poster .poster03 img {
+    width: 420px;
+    height: 600px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
 .app .qr_text {
     display: flex;
     justify-content: center;
@@ -257,7 +304,7 @@ body {
     font-size: 48px;
     gap: 10px;
     position: absolute;
-    top: 6920px;
+    top: 8550px;
 }
 
 .app .app_text .applemusic a img {
